@@ -1,0 +1,49 @@
+/* css för gömda/visade objekt beroende på fönsterbredd */
+
+@media screen and (min-width: 0px) and (max-width: 979px) {
+  #content-big { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 980px) and (max-width: 9024px) {
+  #content-big { display: block; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 979px) {
+  #content-small { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 980px) and (max-width: 9024px) {
+  #content-small { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  #content-bigger { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 1200px) and (max-width: 9024px) {
+  #content-bigger { display: block; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  #content-smaller { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 1200px) and (max-width: 9024px) {
+  #content-smaller { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  #content-header { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) and (max-width: 9024px) {
+  #content-header { display: block; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  #content-header-small { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) and (max-width: 9024px) {
+  #content-header-small { display: none; }   /* hide it elsewhere */
+}
